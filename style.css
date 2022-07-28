@@ -10,6 +10,10 @@ body {
     color: #289BDE;
 }
 
+.social-media>a {
+    text-decoration: none;
+}
+
 
 
 
