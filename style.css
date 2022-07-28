@@ -10,8 +10,16 @@ body {
     color: #289BDE;
 }
 
+
+
+
+
+
+
+
+
 /* media Queries */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .carousel-item {
         height: 260px;
         width: 335px;
@@ -30,4 +38,9 @@ body {
         --bs-btn-padding-x: .5rem;
         --bs-btn-font-size: .75rem;
     }
+
+    .card-horizontal {
+        flex-direction: column;
+    }
+
 }
